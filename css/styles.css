@@ -118,6 +118,115 @@ img {
     text-align: center;
 }
 
+.header-container nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation-link {
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    color: #1eb88a;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.form-container {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #8a4d3c;
+    border-radius: 10px;
+    width: 50%;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contact-paragraph h2{
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    color: #ffa751;
+}
+
+.contact-paragraph p {
+    text-align: center;
+}
+
+.dog-icon {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dog-icon img {
+    width: 120px;
+    height: auto;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-family: 'Comic Sans MS', cursive;
+    color: #ffa751;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 48%;
+    padding: 10px;
+    border: 2px solid #8a4d3c;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #8a4d3c;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    height: 100px;
+    font-family: Montserrat, sans-serif
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffa751;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7f3f;
+}
+
+.footer-container {
+    text-align: center;
+}
 /* ////////////tablet///////////////// */
 @media only screen and (min-width:768px) {
     .image-container {
@@ -156,6 +265,10 @@ img {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+    }
+
+    .contact-paragraph {
+        max-width: 50%;
     }
 }
 /* ////////////desktop///////////////// */
