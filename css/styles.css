@@ -19,6 +19,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    font-weight: 500;
 }
 p {
     font-family: Montserrat, sans-serif;
@@ -27,6 +28,7 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 h1 {
     font-size: 32px;
     font-family: Raleway, sans-serif;
@@ -39,6 +41,16 @@ h2 {
     font-family: Raleway, sans-serif;
     font-weight: bold;
     color: black;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.white-link{
+    color:white;
 }
 .skill-list {
     flex-direction: column;
@@ -138,7 +150,7 @@ img {
 .form-container {
     position: relative;
     background-color: #fff;
-    border: 2px solid #8a4d3c;
+    border: 3px solid #8a4d3c;
     border-radius: 10px;
     width: 50%;
     padding: 40px;
@@ -165,7 +177,7 @@ img {
 
 .dog-icon {
     position: absolute;
-    top: -60px;
+    top: -86px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -219,7 +231,10 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-
+nav{
+    max-width: 1280px;
+    margin: 0 auto;
+}
 button:hover {
     background-color: #ff7f3f;
 }
@@ -228,11 +243,16 @@ footer {
     width: 100%;
     background-color: #1eb88a;
     padding: 20px 0;
-    margin-top: 10%;
-
 }
 .footer-container {
     text-align: center;
+    color: white; /* Optional: Make the text white */
+}
+.footer-container p{
+    padding:20px;
+}
+.section-space{
+    padding:40px;
 }
 /* ////////////tablet///////////////// */
 @media only screen and (min-width:768px) {
@@ -281,7 +301,7 @@ footer {
 /* ////////////desktop///////////////// */
 @media only screen and (min-width:1280px) {
     .white-background .container {
-        max-width: 500px;
+        max-width: 750px;
     }
     .padding-bottom-40 {
         padding-bottom: 0px;
